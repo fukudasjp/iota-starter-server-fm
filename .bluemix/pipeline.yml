@@ -9,7 +9,7 @@ stages:
   jobs:
   - name: Build
     type: builder
-    build_type: Shell Script
+    build_type: shell
     script: |-
       #!/bin/bash
       # The default Node.js version is 0.10.40
